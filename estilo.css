@@ -125,15 +125,13 @@ html {
   font-size: 28px;
   cursor: pointer;
 }
-/* Estilo padrão (Mobile First) */
-.container {
-    padding: 10px;
-}
 
-/* Estilos para telas maiores (Tablets e Desktops) */
-@media (min-width: 768px) {
-    .container {
-        display: flex;
-        padding: 40px;
+@media screen and (max-width: 1020px) {
+ .container-expandido {
+	flex-direction: column-reverse;
+ }
+	 
+	.logo, .link_menu{
+        display: none;
     }
 }
