@@ -125,13 +125,3 @@ html {
   font-size: 28px;
   cursor: pointer;
 }
-
-@media screen (max-width: 1020px) {
- .container-expandido {
-	flex-direction: column-reverse;
- }
-	 
-	.logo, .link_menu{
-        display: none;
-    }
-}
