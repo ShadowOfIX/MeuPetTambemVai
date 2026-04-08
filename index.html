@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Meu pet também vai!</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="icon" type="image/x-icon" href="https://i.postimg.cc/m2wCDkDV/logo.png">
+</head>
+
+<body>
+	<header>
+		<div class="logo">
+        <img src="https://i.postimg.cc/m2wCDkDV/logo.png" alt="Logo do site" class="no-hover" style=" display: block; margin-left: 0; margin-right: auto; max-height: 100px;">
+        </div>
+		<h1 style="font-family: 'Segoe UI', sans-serif;"> MEU PET TAMBÉM VAI! </h1>
+	</header>
+
+	<div id="conteudo">
+	<h2 style="text-align: center; color: #ffffff; font-size: 30px; background-color: #506c7f; font-family: 'Segoe UI', sans-serif;">Menu</h2>
+			
+	<ul style=" margin-left: 450px; margin-right: 400px;">
+		<li><a href="#" class="link_menu"> |  Home  |</a></li>
+		<li><a href="Estabelecimentos.html" class="link_menu"> |  Estabelecimentos   |</a></li>
+		<li><a href="formulario.html" class="link_menu"> |  Sugestão   |</a></li>
+	</ul>
+	</div>
+
+	<div>
+		<h2 style="text-align: center; color: #ffffff; font-size: 30px; background-color: #506c7f; font-family: 'Segoe UI', sans-serif;">Quem somos</h2>
+	</div>
+
+<div class="container-expandido">
+  <img src="https://i.postimg.cc/m2wCDkDV/logo.png" alt="Sua Imagem" class="imagem-base" style="box-shadow: none; cursor: default; transform: none; opacity: 1;">
+  
+  <div class="caixa-texto">
+    <h2 style="text-align: center;">Meu pet também vai!</h2>
+    <p style="text-align: justify;">O "Meu Pet Também Vai" é um projeto do grupo S1N8 que tem como objetivo o mapeamento e promoção de espaços "pet-friendly", desde restaurantes e lojas até parques e centros comerciais, garantindo que tutores não precisem mais deixar os seus pets em casa por falta de informação.</p>
+    <p style="text-align: justify;"> Além disso, esse projeto nasceu da observação de um novo comportamento social: hoje, os animais de estimação são membros fundamentais do núcleo familiar. No entanto, percebe-se que, apesar dessa mudança de paradigma, ainda existe uma enorme carência de locais pet-friendly fora da região central de São Paulo.</p>
+    <p style="text-align: justify;"> Junte-se a nós! Contribua com a divulgação de estabelecimentos "pet-friendly" na sua região e incentive a criação desses espaços em seu bairro. </p> 
+  </div>
+</div>
+
+<style>
+  .container-expandido {
+    display: flex; /* Alinha imagem e texto lado a lado */
+    align-items: center; /* Centraliza verticalmente */
+    max-width: 1300px;
+    margin: 50px;
+  }
+
+  .imagem-base {
+    width: auto;
+    height: 450px;
+    z-index: 2; /* Garante que a imagem fique sobreposta se necessário */
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    margin-left: 100px;
+  }
+
+  .caixa-texto {
+    background-color: #f4f4f4; /* Cor do "background" que sai da imagem */
+    padding: 60px 60px 60px 80px; /* Mais padding na esquerda para afastar o texto da imagem */
+    margin-left: -30px; /* O truque: margem negativa faz a caixa entrar atrás da imagem */
+    border-radius: 0 15px 15px 0; /* Arredonda apenas os cantos da direita */
+    z-index: 1; /* Fica atrás da imagem */
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    height: 330px;
+  }
+</style>
+
+
+</body>
+</html>
