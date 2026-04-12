@@ -5,6 +5,7 @@ header {
     background-color: slategray;
     padding: 20px;
     position: relative;
+    width: auto;
 }
 
 header .logo {
@@ -23,14 +24,20 @@ header h1 {
     font-family: Arial, sans-serif;
 }
 
+.menu_principal{
+  margin-left: 450px;
+  margin-right: 400px;
+  padding-inline-start: 480px;
+}
+
 #conteudo ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 1;
 	width: auto;
-    height: 25;
-    display: flex;
-    gap: 30px;
+  height: 25;
+  display: flex;
+  gap: 30px;
 	background-color: #ebebeb;
 	border-radius: 10px;
 }
@@ -38,8 +45,8 @@ header h1 {
 #conteudo li a {
 	display: inline;
 	color: #000;
-    padding: 2px 2px;
-    margin-left: 20px;
+  padding: 2px 2px;
+  margin-left: 20px;
 	text-decoration: none;
 	border-radius: 10px;
 }
@@ -48,6 +55,13 @@ li a:hover {
 	background-color: #b2b2b2;
 	color: white;
     border-radius: auto;
+}
+
+.slide img{
+  width: auto;
+  height: 60%;
+  margin-left: 150px;
+  border-radius: 8px;
 }
 
 .link_menu {
@@ -69,6 +83,16 @@ html {
   scroll-behavior: smooth;
 }
 
+  #secao2 h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    background-color: #506c7f;
+  }
+
+  .caixa-texto h2{
+    margin-top: -30px;
+  }
 
 /* Classe para "resetar" a imagem específica */
 .no-hover:hover {
@@ -124,4 +148,208 @@ html {
   top: 10px;
   font-size: 28px;
   cursor: pointer;
+}
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        padding: 8px;
+        background-color: #ffffff;
+    }
+
+    /* Container dos 4 botões principais */
+    .menu-central {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin: 70px 0; /* Espaço grande para testar o scroll */
+    }
+
+    .botao-principal {
+        padding: 15px 30px;
+        background-color: green;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .botao-principal:hover {
+        background-color: #2c3e50;
+
+    }
+
+    /* Botão de voltar dentro de cada setor */
+    .botao-voltar {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 8px 15px;
+        background-color: #e74c3c;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 0.9em;
+    }
+
+    .botao-voltar:hover {
+        background-color: #c0392b;
+    }
+
+#setor1 {
+  height: 720px;
+  margin-bottom: 50px;
+  padding: 20px 20px;
+  border-top: 2px solid #506c7f;
+  border-left: 2px solid #506c7f;
+  border-bottom: 2px solid #506c7f;
+  border-right: 2px solid #506c7f;
+  background-color: #ffffff;"
+}
+
+#setor2 {
+  height: 720px;
+  margin-bottom: 50px;
+  padding: 20px 20px;
+  border-top: 2px solid #506c7f;
+  border-left: 2px solid #506c7f;
+  border-bottom: 2px solid #506c7f;
+  border-right: 2px solid #506c7f;
+  background-color: #ffffff;"
+}
+
+#setor3 {
+  height: 720px;
+  margin-bottom: 50px;
+  padding: 20px 20px;
+  border-top: 2px solid #506c7f;
+  border-left: 2px solid #506c7f;
+  border-bottom: 2px solid #506c7f;
+  border-right: 2px solid #506c7f;
+  background-color: #ffffff;"
+}
+
+#setor4 {
+  height: 720px;
+  margin-bottom: 50px;
+  padding: 20px 20px;
+  border-top: 2px solid #506c7f;
+  border-left: 2px solid #506c7f;
+  border-bottom: 2px solid #506c7f;
+  border-right: 2px solid #506c7f;
+  background-color: #ffffff;"
+}
+
+
+/* Para dispositivos móveis */
+
+@media screen and (max-width: 1020px) {
+ .container-expandido {
+  flex-direction: column-reverse;
+  margin: 0;
+  max-width: 20%;
+  height: 280;
+ }
+
+ .container-expandido img{
+  height: auto;
+  width: 360px;
+  margin-left: 0;
+  margin-top: -110px;
+ }
+
+ .caixa-texto{
+  height: auto;
+  font-size: 11px;
+  margin: -30px;
+  width: 80%;
+ }
+
+ .caixa-texto p, h2 {
+  margin-left: -50px;
+  margin-right: -30px;
+ }
+   
+  .logo, .link_menu{
+        display: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+  #conteudo ul {
+  border-style: none;
+  margin-left: 0;
+  margin-right: 0;
+  box-sizing: border-box;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-inline-start: 0;
+  }
+
+  #conteudo il a {
+  margin-left: 0;
+  }
+
+  .slideshow-container{
+    margin: 0;
+  }
+
+  .slide {
+    align-content: center;
+    margin-left: -100px;
+  }
+
+  #contato h2 {
+    color: #ff5500;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #secao2 h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 17px;
+  background-color: #506c7f;
+  }
+
+  .botao-principal {
+   padding: 10px 10px 10px 10px;
+   width: 80px;
+  }
+
+  .menu-central{
+    gap: 12px;
+    margin-left: 0;
+  }
+
+  #setor1 h2, #setor2 h2, #setor3 h2, #setor4 h2 {
+  top: -18px;
+  left: 20px;
+  padding: 0 10px;
+  margin: 0;
+  font-size: 24px;
+  }
+
+  #setor1, #setor2, #setor3, #setor4{
+    height: auto;
+  }
+
+  .image-gallery{
+    gap: 35px;
+
+  }
+
+  .card img {
+    width: 100px;
+    height: 168px;
+    margin-left: -20px;
+  }
+
+  .modal-content{
+    margin: 70% auto;
+  }
 }
