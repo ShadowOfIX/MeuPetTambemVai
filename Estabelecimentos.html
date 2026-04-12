@@ -17,15 +17,15 @@
 			<h1 style="font-family: 'Segoe UI', sans-serif;"> MEU PET TAMBÉM VAI! </h1>
 		</header>
 
-		<div id="conteudo">
-			<h2 style="text-align: center; color: #ffffff; font-size: 30px; background-color: #506c7f;">Menu</h2>
-			
-			<ul style=" margin-left: 420px; margin-right: 400px;">
-				<li><a href="index.html" class="link_menu"> |  Home  |</a></li>
-				<li><a href="#secao2" class="link_menu"> |  Estabelecimentos   |</a></li>
-				<li><a href="formulario.html" class="link_menu"> |  Sugestão   |</a></li>
-			</ul>
-		</div>
+    <div id="conteudo">
+    <h2 style="text-align: center; color: #ffffff; font-size: 30px; background-color: #506c7f; font-family: 'Segoe UI', sans-serif;">Menu</h2>
+        
+    <ul class="menu_principal">
+      <li><a href="index.html" class="link_menu"> |  Home  |</a></li>
+      <li><a href="#secao2" class="link_menu"> |  Estabelecimentos   |</a></li>
+      <li><a href="formulario.html" class="link_menu"> |  Sugestão   |</a></li>
+    </ul>
+    </div>
 
 		<div>
 			<h2 style="text-align: center; color: #ffffff; font-size: 30px; background-color: #506c7f;">Locais em Destaque</h2>
@@ -46,7 +46,7 @@
     	}
 
     	.slide img {
-    	  width: 100%;
+    	 width: 60%;
      	 border-radius: 8px;
    		}
 
@@ -100,15 +100,15 @@
 
 <div class="slideshow-container">
   <div class="slide">
-    <img src="https://i.postimg.cc/rwqGCbzG/Caetanos.png" alt="Foto 1" style=" width: auto; height: 600px; margin-left: 200px;">
+    <img src="https://i.postimg.cc/rwqGCbzG/Caetanos.png" alt="Foto 1">
   </div>
 
   <div class="slide">
-    <img src="https://i.postimg.cc/4ywbHQZt/panni.png" alt="Foto 2" style=" width: auto; height: 600px; margin-left: 200px;">
+    <img src="https://i.postimg.cc/4ywbHQZt/panni.png" alt="Foto 2">
   </div>
 
   <div class="slide">
-    <img src="https://i.postimg.cc/59G8Tyy0/pet-park.png" alt="Foto 3" style=" width: auto; height: 600px; margin-left: 200px;">
+    <img src="https://i.postimg.cc/59G8Tyy0/pet-park.png" alt="Foto 3">
   </div>
 
   <!-- Botões direita e esquerda -->
@@ -157,59 +157,10 @@
 </script>
 
     <div>
-        <h2 id="secao2" style="text-align: center; color: #ffffff; font-size: 30px; background-color: #506c7f;">Estabelecimentos Pet Friendly em São Paulo</h2>
+    <section id="secao2">
+      <h2>Estabelecimentos Pet Friendly em São Paulo</h2>
+    </section>
     </div>
-
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            margin: 0;
-            padding: 8px;
-            background-color: #ffffff;
-        }
-
-        /* Container dos 4 botões principais */
-        .menu-central {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin: 70px 0; /* Espaço grande para testar o scroll */
-        }
-
-        .botao-principal {
-            padding: 15px 30px;
-            background-color: green;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-
-        .botao-principal:hover {
-            background-color: #2c3e50;
-
-        }
-
-        /* Botão de voltar dentro de cada setor */
-        .botao-voltar {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 8px 15px;
-            background-color: #e74c3c;
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            font-size: 0.9em;
-        }
-
-        .botao-voltar:hover {
-            background-color: #c0392b;
-        }
-    </style>
 
     <div id="ancora-menu" class="menu-central">
         <a href="#setor1" class="botao-principal">Zona Norte</a>
@@ -238,7 +189,7 @@
     }
     </script>
 
-        <section id="setor1" style="height: 720px; margin-bottom: 50px; padding: 20px 20px; border-top: 2px solid #506c7f; border-left: 2px solid #506c7f; border-bottom: 2px solid #506c7f; border-right: 2px solid #506c7f; background-color: #ffffff;">
+        <section id="setor1">
             <h2 style="background-color: #506c7f; color: white; text-align: center;">Zona Norte</h2><br>
               <section class="image-gallery">
               <div class="card" onclick="openModal('Caetanos Bar', 'Avenida Eng. Caetano Álvares, 5496 - Mandaqui.')">
@@ -263,7 +214,7 @@
             <a href="#ancora-menu" class="botao-voltar">↑ Voltar</a>
         </section>
 
-        <section id="setor2" style="height: 720px; margin-bottom: 50px; padding: 20px 20px; border-top: 2px solid #506c7f; border-left: 2px solid #506c7f; border-bottom: 2px solid #506c7f; border-right: 2px solid #506c7f; background-color: #ffffff;">
+        <section id="setor2">
             <h2 style="background-color: #506c7f; color: white; text-align: center;">Zona Sul</h2><br>
             <section class="image-gallery">
               <div class="card" onclick="openModal('Caetanos Bar', 'Avenida Eng. Caetano Álvares, 5496 - Mandaqui.')">
@@ -288,7 +239,7 @@
             <a href="#ancora-menu" class="botao-voltar">↑ Voltar</a>
         </section>
 
-        <section id="setor3" style="height: 720px; margin-bottom: 50px; padding: 20px 20px; border-top: 2px solid #506c7f; border-left: 2px solid #506c7f; border-bottom: 2px solid #506c7f; border-right: 2px solid #506c7f; background-color: #ffffff;">
+        <section id="setor3">
             <h2 style="background-color: #506c7f; color: white; text-align: center;">Zona Leste</h2><br>
             <section class="image-gallery">
               <div class="card" onclick="openModal('Caetanos Bar', 'Avenida Eng. Caetano Álvares, 5496 - Mandaqui.')">
@@ -313,7 +264,7 @@
             <a href="#ancora-menu" class="botao-voltar">↑ Voltar</a>
         </section>
 
-        <section id="setor4" style="height: 720px; margin-bottom: 50px; padding: 20px 20px; border-top: 2px solid #506c7f; border-left: 2px solid #506c7f; border-bottom: 2px solid #506c7f; border-right: 2px solid #506c7f; background-color: #ffffff;">
+        <section id="setor4">
             <h2 style="background-color: #506c7f; color: white; text-align: center;">Zona Oeste</h2><br>
             <section class="image-gallery">
               <div class="card" onclick="openModal('Caetanos Bar', 'Avenida Eng. Caetano Álvares, 5496 - Mandaqui.')">
