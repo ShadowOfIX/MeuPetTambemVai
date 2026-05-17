@@ -108,6 +108,7 @@ html {
   justify-content: space-around;
   gap: 20px;
   padding: 20px;
+  border: 8px solid #b5838d;
 }
 
 .card img {
