@@ -25,9 +25,10 @@ header h1 {
 }
 
 .menu_principal{
-  margin-left: 450px;
-  margin-right: 400px;
-  padding-inline-start: 480px;
+  max-width: auto;
+  margin-inline: auto;
+  padding-inline: 20px;
+  justify-content: center;
 }
 
 #conteudo ul {
