@@ -324,6 +324,7 @@ html {
   color: #ffffff;
   font-size: 17px;
   background-color: #506c7f;
+  max-width: auto;
   }
 
   .botao-principal {
