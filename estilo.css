@@ -278,7 +278,12 @@ html {
         margin-left: 0;
         margin-right: 0;
     }
-
+	
+  .menu_principal{
+  flex-direction: column;
+  text-align: center;
+  }
+	
   #conteudo ul {
   border-style: none;
   margin-left: 0;
